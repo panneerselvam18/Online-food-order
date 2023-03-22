@@ -1,0 +1,82 @@
+.abc{
+    background-image: url(./banner.webp);
+    /* background-size: cover; */
+    background-position: center;
+    height:98vh;
+    /* background-attachment: fixed; */
+}
+.mgr{
+    margin-left: 980px;
+    padding: 20px;
+}
+.navbar{
+    position: fixed;
+    background: rgba(0, 0, 0, 0.5);
+}
+.texts{
+    font-size: 50px;
+    color: aliceblue;
+    font-weight: bolder;
+    
+    margin-left: 50px;
+}
+
+.nav-link{
+    margin-left: 20px;
+}
+.link{
+    color: white;
+    transition:  all 0.2s; 
+}
+.link:hover{
+    color: blueviolet;
+}
+/* navbr ednded */
+/* page starts */
+.types{
+    display: flex;
+    justify-content: space-evenly;
+    align-self: center;
+    align-items: center;
+    transition:  all 0.5s;  
+}
+.types a{
+    text-decoration: none;
+    color: white;
+}
+.second{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+
+}
+.second a{
+    text-decoration: none;
+    color: white;
+    align-self: center;
+}
+.image-hover{
+    margin-top: 120px;
+    transition:  all;  
+}
+.im3{
+    height: 100px;
+    width: 100px;
+    align-items: center;
+}
+.im34{
+    height: 90px;
+    width: 80px;
+    margin-left: 150px;
+    margin-top: 15px;
+}
+/* footer */
+.footer{
+    background-color: #fb587a;
+    text-align: center;
+    padding: 20px;
+}
+body{
+    background-color: #F5F5F5;
+}
