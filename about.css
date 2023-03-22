@@ -1,0 +1,90 @@
+.abc{
+    background-image: url(./banner\ \(1\).webp);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    /* background-attachment: fixed; */
+}
+.mgr{
+    margin-left: 980px;
+    padding: 20px;
+}
+.navbar{
+    position: fixed;
+    background: rgba(0, 0, 0, 0.5);
+}
+.texts{
+    font-size: 48px;
+    color: aliceblue;
+    font-weight: bolder;
+    margin-right: 630px;
+    margin-left: 50px;
+    padding-top: 100px;
+}
+.navbar{
+    background: rgba(0, 0, 0, 0.5);
+}
+.nav-link{
+    margin-left: 20px;
+}
+.link{
+    color: white;
+    transition:  all 0.2s; 
+}
+.link:hover{
+    color: blueviolet;
+}
+body{
+    background-color: #F5F5F5;
+}
+/* main page */
+.strip{
+    display: flex;
+    margin: 150px;
+    margin-left: 80px;
+    margin-right: 150px;
+    align-items: center;
+    /* text-align: center; */
+    /* align-self: center; */
+}
+.align{
+    margin-left: 80px;
+}
+.img-size{
+    width: 500px;
+    height: auto;
+}
+.rgb{
+    line-height: 35px;
+    font-size: 20px;
+}
+
+/* footer  */
+.timeings{
+    display: inline-flex;
+    justify-content: space-around;
+    margin: 10px;
+}
+.locations{
+    display: flex;
+}
+.hours{
+    margin-right: 500px;
+}
+.logos{
+    margin-right: 300px;
+}
+.fa-brands{
+    color: #ff5672;
+    transition:  all 0.5s;  
+}
+.fa-brands:hover{
+    transform: scale(1.1);
+}
+/* last footer */
+/* footer */
+.footer{
+    background-color: #fb587a;
+    text-align: center;
+    padding: 10px;
+}
